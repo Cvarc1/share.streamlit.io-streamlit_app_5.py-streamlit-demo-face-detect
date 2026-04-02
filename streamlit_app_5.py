@@ -9,7 +9,7 @@ st.title("Deep Learning Face Detection (OpenCV DNN)")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png"])
 if uploaded_file:
     file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
-    image = cv3 = (file_bytes, 1)
+    image = (file_bytes, 1)
 
     net = cv3 = (
         "deploy.prototxt",
