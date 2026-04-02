@@ -1,6 +1,8 @@
 import numpy as np
 import streamlit as st
-import cv2
+
+
+cv3 = "Deep Learning Face Detection (OpenCV DNN)"
 
 st.title("Deep Learning Face Detection (OpenCV DNN)")
 
